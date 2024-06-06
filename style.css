@@ -207,6 +207,39 @@ nav .btn{
 }
 
 
+.healthcare-heading{
+  position: absolute; 
+  top: 50%;
+   left: 50%; 
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: calc(2vw + 0.8rem);
+  border: solid 2px white;
+  box-shadow: 0px 0px 10px 0px white;
+  background-color:rgb(222, 52, 14);
+  padding: 20px;
+  border-radius: 30px;
+  white-space: nowrap;
+  font-family: Pacifico;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.healthcare-heading:hover{
+  color: rgb(245, 78, 41);
+  font-size: calc(1vw + 1.5rem);
+  border: solid 2px rgb(245, 78, 41);
+  box-shadow: 0px 0px 10px 0px rgb(245, 78, 41);
+  background-color:white;
+
+}
+
+@media (max-width:700px){
+  .healthcare-heading{
+    padding: 10px;
+  }
+}
+
+
 
 .controls {
   position: absolute;
